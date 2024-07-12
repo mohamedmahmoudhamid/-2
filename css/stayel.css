@@ -9,6 +9,7 @@
   body{
       
          font-family: "Kotta One", serif;
+         overflow-x: hidden;
        
      
        
@@ -58,9 +59,15 @@
 .client-logo{
     opacity: .1;
     transition: .8s;
-    width: 200px;
-    margin-left: 40px;
+    /* width: 200px; */
+    /* margin-left: 40px; */
     filter: grayscale(1);
+   
+}
+@media (max-width:426px){
+  .container .pice .col-md-12{
+    text-align: center;
+    }
 }
 .client-logo:hover{
     opacity: 1;
@@ -97,6 +104,8 @@ position: relative;
   background-color: #3172ab;
   border-radius: 10px;
 }
+
+
 /* @media (min-width:360px){
 
   .hamada{
@@ -351,8 +360,8 @@ opacity: 1;
   
   /* Create three equal columns that floats next to each other */
   .column {
-    float: left;
-    width: 33.33%;
+    /* float: left; */
+    /* width: 33.33%; */
     display: none;
   }
   
