@@ -76,25 +76,26 @@
 position: relative;
 }
 #hamada::before{
-    content: ' ';
-    width: 80px;
-    height: 2px; 
-    top: 25px;
-    left: 35%;
-    position: absolute;
-    display: inline-block; 
+  content: "";
+  position: absolute; 
+  width: 50px; 
+  height: 4px; 
+  /* background-color: aqua; */
+  display: inline-block; 
+  margin: 22px 0px 0px -73px ;
+  border-radius: 10px;
     background-color: #3172ab;
 }
 #hamada::after{
-  content: '';
-  width: 80px;
-  height: 2px; 
-  position: absolute;
+  content: "";
+  position: absolute; 
+  width: 50px; 
+  height: 4px; 
+  background-color: aqua;
   display: inline-block; 
-  top: 25px; 
-  right: 35%;
+  margin: 22px 0px 0px 30px;
   background-color: #3172ab;
-  
+  border-radius: 10px;
 }
 /* @media (min-width:360px){
 
