@@ -93,6 +93,7 @@ position: relative;
   border-radius: 10px;
     background-color: #3172ab;
 }
+
 #hamada::after{
   content: "";
   position: absolute; 
@@ -181,7 +182,9 @@ position: relative;
  /* Start Our-Work */
 
 
-
+.nam{
+  margin-top: 10px;
+}
 
  
 
